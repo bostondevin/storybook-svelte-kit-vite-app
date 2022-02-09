@@ -478,6 +478,9 @@ video {
 .flex {
 	display: flex;
 }
+.contents {
+	display: contents;
+}
 .flex-col {
 	flex-direction: column;
 }
@@ -507,14 +510,6 @@ video {
 .text-purple-400 {
 	--tw-text-opacity: 1;
 	color: rgba(167, 139, 250, var(--tw-text-opacity));
-}
-.text-blue-700 {
-	--tw-text-opacity: 1;
-	color: rgba(29, 78, 216, var(--tw-text-opacity));
-}
-.text-red-700 {
-	--tw-text-opacity: 1;
-	color: rgba(185, 28, 28, var(--tw-text-opacity));
 }
 /* custom CSS goes here */
 /* Directive controlling where Tailwind injects responsive variations of utilities.
